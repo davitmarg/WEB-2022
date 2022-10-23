@@ -1,0 +1,741 @@
+body {
+    background-color: #d6e6ef;
+}
+  
+button{
+    cursor: pointer; 
+    z-index: 100;
+}
+
+#header1{
+    position: relative;
+    margin: auto;
+    width: 100%;
+}
+
+#logo{
+    z-index: 10;
+    position: absolute;
+    width: 258px;
+    height: 300px;
+    top: -190px;
+    left: 13%;
+    box-shadow: 2px 5px 10px rgba(18, 126, 165, 0.92);
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+    background-color: #e1ecf2;
+    transform: rotate(-7deg);
+}
+
+@font-face {
+    font-family: SafariFont;
+    src: url("D:\\Davit\\ProgProjects\\WEB2022\\agaalenbold-roman_[allfont.net].ttf");
+  }
+
+#SafariTour{
+    position: relative;
+    width: 250px;
+    height: 44px;
+    top: 200px;
+    text-align: center;
+
+    background-color: transparent;
+    border-color: transparent;
+    
+    
+    cursor: pointer;
+
+    color: #299fca;
+    font-family: SafariFont;
+    font-size: 33px;
+    letter-spacing: normal;
+
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#InterTourPackages{
+    position: relative;
+    width: 250px;
+    height: 29px;
+    margin: auto;
+    text-align: center;
+    top: 210px;
+    color: #299fca;
+
+    font-family: "Arial";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#topButtons{
+    position: relative;
+    width: 900px;
+    top: 0;
+    margin-left: 40px;
+    left: 30%;
+}
+
+#topmenu_bg{
+    margin: auto;
+    position: absolute;
+    top: -120px;
+    margin-left: 10%;
+    width: 80%;
+    height: 200px;
+    background-color: #4cb2e7;
+    transform: rotate(-3deg);
+    border-radius: 10px;
+}
+
+
+#topButtons > button {
+
+    position: relative;
+    background-color: transparent;
+    border-color: transparent;
+
+    color: white;
+    padding: 10px 24px;
+    margin-left: 20px;
+
+    font-family: "Arial";
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+
+#bannerSlider{
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+
+#OnlineBooking{
+    position: absolute;
+    right: 10%;
+    top: 15%;
+    width: 308px;
+    height: 539px;
+}
+
+#booking_bg{
+    z-index: 1;
+    position: absolute;
+    width: 308px;
+    height: 539px;
+    border: 7px solid #7ebee0;
+    background-color: #299fca;
+    border-radius: 15px;
+}
+
+#fields{
+    position: relative;
+    z-index: 10;
+    width: 280px;
+    left: 10%;
+    top: 17%;
+
+    
+}
+
+.fieldTag{
+    margin-right: 10px;
+    width: 54px;
+    height: 12px;
+    color: #ffffff;
+    font-family: "AG Foreigner Roman Medium";
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.field{
+    width: 171px;
+    height: 31px;
+    left: 10%;
+    border: 3px solid #a7d1e6;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    
+    width: 171px;
+    color: #299fca;
+    font-family: "Arial";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+
+#submitButton{
+    margin-top: 10px;
+
+    margin-left: 160px;
+    width: 101px;
+    height: 27px;
+    background-image: linear-gradient(to top, #e5db10 0%, #fff203 100%);
+    border: transparent;
+    border-radius: 5px;
+
+    color: #64affc;
+    font-family: "Arial";
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    
+}
+
+
+#fmessage{
+    width: 171px;
+    height: 57px;
+    border: 3px solid #a7d1e6;
+    
+}
+
+#fpackageSelect{
+    width: 171px;
+    color: #299fca;
+    font-family: "Arial";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#onlineBookingImg {
+    position: relative;
+    z-index: 10;
+    top: 5%;
+    left: -5%;
+}
+
+#designElements{
+    position: static;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#designElements > *{
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+#cloudImg1{
+    top: 360px;
+}
+
+#cloudImg2{
+    top: 470px;
+}
+
+#cloudImg1, #cloudImg2{
+    height: 100%;
+}
+
+#special{
+    z-index: 10;
+    position: relative;
+    top: 650px;
+    width: 200px;
+    margin-left: 10%;
+}
+
+.specialOffer{
+    position: relative;
+    height: 100px;
+}
+
+#OurSpecialOffers{
+    position: relative;
+    z-index: inherit;
+    width: 250px;
+    height: 28px;
+    color: #ffffff;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 29px;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.specialImage{
+    position: absolute;
+    width: 78px;
+    height: 57px;
+    border: 3px solid #ffffff;
+}
+
+.specialTitle{
+    position: relative;
+    width: 118px;
+    height: 11px;
+
+    left: 100px;
+
+    color: #ffffff;
+    font-family: Colaborate;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.specialText{
+    position: relative;
+    
+    overflow: hidden;
+    left: 100px;
+    width: 213px;
+    height: 33px;
+    color: #ffffff;
+    font-family: "Colaborate - Thin";
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+
+.price{
+    position: absolute;
+    left: 100px;
+    margin-top: auto;
+    width: 66px;
+    height: 10px;
+    color: #ffffff;
+    font-family: "Arial";
+    font-size: 27px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+
+.specialButton{
+    position: absolute;
+    left: 170px;
+    margin-top: auto;
+
+    width: 101px;
+    height: 27px;
+    background-image: linear-gradient(to top, #e5db10 0%, #fff203 100%);
+    border: transparent;
+    border-radius: 5px;
+
+    color: #64affc;
+    font-family: "Arial";
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    
+}
+
+
+#line1 {
+    position: relative;
+    border-top: 1px dashed white;
+    width: 329px;
+    margin-top: 30px;
+}
+
+#navigation{
+    z-index: 10;
+    position: absolute;
+
+    top: 730px;
+    width: 650px;
+    height: 400px;
+
+    list-style-type: none;
+    margin-left: 40%;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+
+li {
+    float: left;
+}
+  
+li a {
+    position: relative;
+    top: 55px;
+    z-index: 10;
+    display: block;
+    color: #81ffff;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    background-color: #299fca;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+
+    margin-left: 10px;
+}
+
+a{
+    width: 53px;
+    height: 11px;
+    color: #127ea5;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+li a:hover:not(.active) {
+    z-index: 10;
+    background-color: #81ffff;
+    color: #299fca;
+}
+
+.active {
+    color: #299fca;
+    background-color: #81ffff;
+}
+
+#line2{
+    z-index: 11;
+    width: "100%";
+    margin-top: 96px;
+    background-color: #81ffff;
+    color: #81ffff;
+    margin-left: 10px;
+}
+
+ul{
+    position: relative;
+    width: 350px;
+    color: #127ea5;
+}
+
+.listInfo{
+    position: relative;
+    color: white;
+    margin-top: 10px;
+
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#days{
+    position: absolute;
+    left: 410px;
+    width: 100px;
+}
+
+.listDays{
+    margin-left: 30px;
+    color: #ffffff;
+    margin-top: 10px;
+
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#details{
+    position: absolute;
+    margin-top: 1px;  
+    left: 520px;
+    width: 200px;
+}
+
+.listDetails{
+    margin-left: 30px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 4px;
+
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#specialSummer{
+    position: absolute;
+    left: 450px;
+    top: 2px;
+}
+
+#findSpots{
+    position: absolute;
+    top: 1130px;
+    left: 450px;
+    width: 500px;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4690b4;
+    font-size: 27px;
+    font-style: Bold;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#clickOnMap{
+    position: absolute;
+    top: 1170px;
+    left: 630px;
+    
+    width: 106px;
+    height: 16px;
+    color: #6ab5d0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: bold;
+    letter-spacing: normal;
+}
+
+
+#footer{
+    position: absolute;
+    top: 1750px;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to top, #1381A8 10%, #1A99C7 100%);
+}
+
+.footerTitle{
+    position: relative;
+    width: 250px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 17px;
+    text-shadow: 1px 1px 0 rgba(15, 111, 146, 0.75);
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#footerNews{
+    position: relative;
+    top: 80px;
+    left: 70px;
+}
+
+.footerField{
+    width: 193px;
+    height: 31px;
+    color: #cde3ee;
+    box-shadow: inset 1px 3px 8px rgba(13, 66, 85, 0.75);
+    border: 2px solid #81ffff;
+    border-radius: 5px;
+    background-color: #0f6686;
+}
+
+.footerButton{
+    margin-top: 10px;
+    margin-left: 160px;
+    width: 101px;
+    height: 27px;
+    background-color: #d6e6ef;
+    border: transparent;
+    border-radius: 5px;
+
+    color: #127ea5;
+    font-family: "Arial";
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#subscribeButton{
+    position: relative;
+    top: 90px;
+    left: -80px;
+    width: 91px;
+    height: 33px;
+}
+
+#footerEmail{
+    position: relative;
+    top: 90px;
+    left: 70px;
+}
+
+#footerSocial{
+    top: 110px;
+    left: 70px;
+}
+
+#socialButtons{
+    position: relative;
+    cursor: pointer; 
+    width: 150px;
+    top: 115px;
+    left: 70px;
+}
+
+.socialButton{
+    position: relative;
+    margin-left: 5px;
+}
+
+#footerContactUs{
+    position: absolute;
+    top: 60px;
+    left: 500px;
+}
+
+#footerContactForm{
+    position: absolute;
+    top: 60px;
+    left: 900px;
+}
+
+#contactInfo{
+
+    position: absolute;
+    top: 110px;
+    left: 500px;
+
+    width:  300px;
+    height: 146px;
+    color: #ffffff;
+    font-family: "Colaborate - Thin";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+#contactForm{
+    position: absolute;
+    top: 110px;
+    left: 900px;
+    width: 250px;
+    height: 250px;
+}
+
+.footerField{
+    margin-top: 10px;
+}
+
+#footerMessage{
+    width: 300px;
+    height: 70px;
+}
+
+#footerSubmitButton{
+    position: relative;
+    left: 58px;
+    width: 91px;
+    height: 33px;
+}
+
+::placeholder {
+    color: rgb(110, 181, 219);
+    opacity: 1; /* Firefox */
+}
+
+#copyright{
+    position: absolute;
+    color:white;
+    left: 330px;
+    top: 360px;
+}
+
+
+.vertical-menu {
+    z-index: 15;
+    position: absolute;
+    left: 300px;
+    top: 1250px;
+    width: 300px;
+    height: 264px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.14);
+    border: 1px solid #ffffff;
+    background-image: linear-gradient(to top, #e0e0d7 0%, #ffffff 100%);
+    border-radius: 20px;
+    overflow-y: auto;
+}
+  
+.vertical-menu div {
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.listObject{
+    width: 250px;
+    height: 60px;
+    background-color: transparent;
+}
+
+.listImage{
+    width: 67px;
+    height: 49px;
+    border: 3px solid #ffffff;
+}
+
+.listTitle{
+    position: relative;
+    width: 150px;
+    height: 13px;
+    top: 27px;
+    left: 90px;
+    color: #a4a4a4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+  
+
+.listText{
+    position: relative;
+    width: 170px;
+    height: 30px;
+    top: -45px;
+    left: 90px;
+    overflow: hidden;
+    color: #a4a4a4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
